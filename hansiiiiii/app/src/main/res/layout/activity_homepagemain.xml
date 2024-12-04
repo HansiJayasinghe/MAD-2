@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".homepagemain">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/abhaya_libre_bold"
+                android:text="Choose the Category  you want!"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="40dp"
+                android:text="Fiction" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Business/Finance" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Biography/Autobiography" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="History" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Mystery/Thriller" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="280dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="Romance" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="40dp"
+                android:text="Favourite Genres" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="40dp"
+                android:text="Craft My Feed" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="412dp"
+        android:layout_height="86dp"
+        android:layout_marginBottom="650dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homescreen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
